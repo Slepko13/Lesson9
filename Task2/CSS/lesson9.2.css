@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts/Proxima Nova/Proxima\ Nova\ Regular.otf');
+
+}
+
+@font-face {
+    font-family: 'Futura PT-Heavy';
+    src: url('../Fonts/Futura PT/FuturaPT-Heavy.woff');
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    height: 900px;
+    background-color: #464f54;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    width: 876px;
+    height: 187px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    margin-top: 40px;
+    margin-left: calc(100% - 876px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.header-title {
+    color: #767676;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin-left: 40px;
+
+}
+
+.header-content {
+    margin-left: 40px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+input {
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    background-color: #181818;
+    outline: none;
+    border: 0 solid;
+}
+
+nav {
+    width: 65%;
+    height: 76px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    z-index: 2;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.material-icons.md-36:hover {
+    opacity: 1.0;
+}
+
+nav div {
+    padding: 15px;
+}
+
+
+.main {
+    /* Style for "Document B" */
+    width: 1060px;
+    height: 800px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+    margin: -160px auto 0 auto;
+    display: flex;
+}
+
+.wrapper {
+    margin: 0 90px 0 70px;
+    border-left: 2px solid #e8eced;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.first {
+    /* Style for "Roy Batty," */
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.72px;
+    margin-bottom: 50px;
+}
+
+.second {
+    /* Style for "Like Tears" */
+    color: #2a2a2a;
+    font-family: "Futura PT-Heavy";
+    font-size: 78px;
+
+    line-height: 73.52px;
+    text-transform: uppercase;
+    /* Text style for "L, ike Tea" */
+    letter-spacing: 5px;
+}
+
+.third {
+    /* Style for "Where am I" */
+    margin-bottom: 55px;
+    color: #8f8f8f;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 62.44px;
+}
+
+.fourth {
+    /* Style for "I've seen" */
+
+    color: #000000;
+    font-family: Georgia, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+    margin-bottom: 40px;
+}
+
+.fourth span {
+    font-style: italic;
+}

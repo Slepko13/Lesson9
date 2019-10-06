@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* Style for "Body" */
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: auto;
+}
+
+header {
+
+    width: 238px;
+    height: 34px;
+    color: #171717;
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-weight: 400;
+
+    letter-spacing: -0.21px;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+
+.bigT {
+
+
+    color: #171717;
+    font-family: "Playfair Display";
+    font-size: 110px;
+    font-weight: 400;
+    opacity: 1.0;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 30px;
+
+}
+
+div {
+
+    opacity: 0.7;
+    color: #171717;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 34px;
+    margin: 20px;
+}
+
+.rrr {
+    float: left;
+    margin-top: -10px;
+    font-size: 60px;
+    font-style: italic;
+
+}
+
+.ggg {
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: -0.12px;
+    line-height: 34px;
+    font-family: Lato;
+}
+
+
+.button {
+    text-align: center;
+    color: #eaa258;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    width: 25%;
+    text-transform: uppercase;
+    background: #ffffff;
+    letter-spacing: 3.6px;
+    border: 2px solid #eaa258;
+    padding: 20px;
+    margin: 0 20px;
+    transition: font-size 2s, width 2s, color 2s;
+}
+
+.button:hover {
+    width: 30%;
+    color: red;
+    font-size: 2em;
+}
